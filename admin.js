@@ -1,243 +1,117 @@
 
-const LS_KEY = 'vh_books_v1';
+let books = [];
+const els = {
+  status: document.getElementById('status'),
+  search: document.getElementById('search'),
+  genre: document.getElementById('genre'),
+  statusSel: document.getElementById('status'),
+  availability: document.getElementById('availability'),
+  sort: document.getElementById('sort'),
+  tbody: document.querySelector('#table tbody'),
+  exportJSON: document.getElementById('exportJSON'),
+  exportCSV: document.getElementById('exportCSV'),
+};
 
-function loadFromLocal(){
-  try{
-    const raw = localStorage.getItem(LS_KEY);
-    if(!raw) return null;
-    const data = JSON.parse(raw);
-    if(Array.isArray(data)) return data;
-    return null;
-  }catch(e){ return null; }
-}
-function saveToLocal(data){
-  try{ localStorage.setItem(LS_KEY, JSON.stringify(data)); }catch(e){ /* quota */ }
-}
-async function loadSeed(){
+const normalize = s => (s||'').toString().toLowerCase();
+const unique = (arr, key) => [...new Set(arr.map(x => x[key]).filter(Boolean))];
+
+async function loadStatic(){
   const r = await fetch('data/library.json?_=' + Date.now());
+  if(!r.ok){ throw new Error('Failed to load static JSON'); }
   return await r.json();
 }
-async function ensureData(){
-  let data = loadFromLocal();
-  if(!data){
-    data = await loadSeed();
-    saveToLocal(data);
-  }
-  return data;
+
+function populateFilters(){
+  const genres = unique(books, 'main_genre').sort((a,b)=>a.localeCompare(b));
+  els.genre.innerHTML = '<option value="">All genres</option>' + genres.map(g=>`<option>${g}</option>`).join('');
 }
 
+function applyFilters(){
+  const q = normalize(els.search.value);
+  const g = els.genre.value;
+  const st = els.statusSel.value;
+  const av = els.availability.value;
 
-let __vh_source = 'unknown';
-function ensureBanner(){
-  let b = document.getElementById('vh-banner');
-  if(!b){
-    b = document.createElement('div');
-    b.id='vh-banner';
-    b.style='margin:12px; padding:10px; border:1px solid #e6e7e9; background:#fff8e1; color:#5d4200; border-radius:6px;';
-    const main = document.querySelector('main') || document.body;
-    (document.querySelector('header')||main).after(b);
-  }
-  return b;
-}
-async function seedFromStatic(){
-  const s = await fetch('data/library.json?_=' + Date.now());
-  const j = await s.json();
-  await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
-  return j;
-}
+  let rows = books.filter(b => {
+    if(q && !(normalize(b.title).includes(q) || normalize(b.author).includes(q) || normalize(b.series).includes(q))) return false;
+    if(g && b.main_genre !== g) return false;
+    if(st && (normalize(b.read_status) !== normalize(st))) return false;
+    if(av === 'in' && b.is_checked_out) return false;
+    if(av === 'out' && !b.is_checked_out) return false;
+    return true;
+  });
 
+  const s = els.sort.value;
+  const coll = (x)=>normalize(x||'');
+  if(s === 'title-asc') rows.sort((a,b)=>coll(a.title).localeCompare(coll(b.title)));
+  if(s === 'title-desc') rows.sort((a,b)=>coll(b.title).localeCompare(coll(a.title)));
+  if(s === 'author-asc') rows.sort((a,b)=>coll(a.author).localeCompare(coll(b.author)));
+  if(s === 'author-desc') rows.sort((a,b)=>coll(b.author).localeCompare(coll(a.author)));
+  if(s === 'series-asc') rows.sort((a,b)=>coll(a.series).localeCompare(coll(b.series)));
+  if(s === 'rating-desc') rows.sort((a,b)=>(parseFloat(b.rating||0) - parseFloat(a.rating||0)));
 
-function ensureBanner(){
-  let b = document.getElementById('vh-banner');
-  if(!b){
-    b = document.createElement('div');
-    b.id='vh-banner';
-    b.style='margin:12px; padding:10px; border:1px solid #e6e7e9; background:#fff8e1; color:#5d4200; border-radius:6px;';
-    const main = document.querySelector('main') || document.body;
-    main.prepend(b);
-  }
-  return b;
-}
-async function seedFromStatic(){
-  const s = await fetch('data/library.json?_=' + Date.now());
-  const j = await s.json();
-  await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
-  return j;
-}
-
-
-async function safeLoadAdmin(){ /* not used in local build */ }
-
-  const statusLine = document.getElementById('statusLine');
-
-  try{
-    const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
-    if(!r.ok) throw new Error('loadData ' + r.status);
-    __vh_source = 'cloud'; statusLine.textContent = 'Loaded from: Cloud';
-    return await r.json();
-  }catch(e){
-    try{
-      const s = await fetch('data/library.json?_=' + Date.now());
-      if(!s.ok) throw new Error('seed ' + s.status);
-      const j = await s.json(); __vh_source = 'static'; statusLine.textContent = 'Loaded from: Seed file';
-      try{
-        await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
-      }catch(_e){}
-      return j;
-    }catch(e2){
-      alert('Error loading books. If you just deployed, Netlify may still be installing dependencies. Try again shortly.');
-      return [];
-    }
-  }
-}
-
-
-const progressOverlay = document.getElementById('progressOverlay');
-const progressText = document.getElementById('progressText');
-function showProgress(msg){ progressText.textContent = msg||'Working…'; progressOverlay.style.display='flex'; }
-function hideProgress(){ progressOverlay.style.display='none'; }
-
-
-let books=[];
-
-async function load(){
-  const res = await fetch('/.netlify/functions/loadData?_=' + Date.now());
-  books = await res.json();
-  render();
+  return rows;
 }
 
 function render(){
-  const t=document.getElementById('table');
-  t.innerHTML='<tr><th>Title</th><th>Author</th><th>Status</th><th>Checked Out To</th><th>Actions</th></tr>';
-  for(let [i,b] of books.entries()){
-    const tr=document.createElement('tr');
-    tr.innerHTML=`<td>${b.title}</td><td>${b.author}</td><td>${b.read_status||''}</td>
-      <td>${b.is_checked_out?(b.checked_out_to_name||'?'):'—'}</td>
-      <td><button onclick="edit(${i})">Edit</button> <button onclick="del(${i})">Delete</button></td>`;
-    t.append(tr);
+  const rows = applyFilters();
+  els.tbody.innerHTML = '';
+  for(const b of rows){
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${b.title}</td>
+      <td>${b.author || ''}</td>
+      <td>${b.series || ''}</td>
+      <td>${b.main_genre || ''}</td>
+      <td>${b.read_status || ''}</td>
+      <td>${b.is_checked_out ? (b.checked_out_to_name ? 'Out to ' + b.checked_out_to_name : 'Out') : 'In'}</td>
+      <td>${b.rating || ''}</td>
+      <td>${b.shelf_location || ''}</td>
+    `;
+    els.tbody.append(tr);
   }
+  els.status.textContent = `Loaded ${rows.length} / ${books.length} from data/library.json`;
 }
 
-function edit(i){
-  const b=books[i];
-  const title=prompt('Title', b.title)||b.title;
-  const author=prompt('Author', b.author)||b.author;
-  const status=prompt('Read status', b.read_status||'')||b.read_status;
-  const who=prompt('Checked out to (blank if none)', b.checked_out_to_name||'')||'';
-  const is_out=!!who;
-  books[i]={...b,title,author,read_status:status,checked_out_to_name:who,is_checked_out:is_out};
-  saveLocal();
-}
-
-function del(i){
-  if(confirm('Delete '+books[i].title+'?')){
-    books.splice(i,1); saveLocal();
-  }
-}
-
-async function saveLocal(){
-  await fetch('data/library.json', {
-    method:'POST', headers:{'Content-Type':'application/json'},
-    body:JSON.stringify(books)
+function bind(){
+  ['input','change'].forEach(ev=>{
+    els.search.addEventListener(ev, render);
+    els.genre.addEventListener(ev, render);
+    els.statusSel.addEventListener(ev, render);
+    els.availability.addEventListener(ev, render);
+    els.sort.addEventListener(ev, render);
   });
-  render();
-}
 
-document.getElementById('newBook').onclick=()=>{
-  const title=prompt('Title'); if(!title)return;
-  books.push({title,author:'',is_checked_out:false});
-  saveLocal();
-};
+  els.exportJSON.onclick = ()=>{
+    const blob = new Blob([JSON.stringify(books, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement('a'), { href: url, download: 'library.json' });
+    document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  };
 
-document.getElementById('export').onclick=()=>{
-  const blob=new Blob([JSON.stringify(books,null,2)],{type:'application/json'});
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download='library-export.json';
-  a.click();
-};
-
-load();
-
-
-/* ===== Bulk cover fetch (Open Library) ===== */
-async function fetchCoverFor(b){
-  if(b.cover_url && b.cover_url.trim()) return false;
-  // Try ISBN first
-  if(b.isbn){
-    const url = `https://covers.openlibrary.org/b/isbn/${encodeURIComponent(b.isbn)}-L.jpg?default=false`;
-    if(await probe(url)){ b.cover_url = url; return true; }
-  }
-  // Search by title/author
-  const q = new URLSearchParams({ title: b.title||'', author: b.author||'' }).toString();
-  const r = await fetch(`https://openlibrary.org/search.json?${q}`);
-  if(r.ok){
-    const data = await r.json();
-    const doc = (data.docs||[]).find(d => d.cover_i);
-    if(doc && doc.cover_i){
-      b.cover_url = `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`;
-      return true;
+  els.exportCSV.onclick = ()=>{
+    const cols = ['title','author','series','main_genre','sub_genre','read_status','is_checked_out','checked_out_to_name','rating','shelf_location','jacket_color','isbn','cover_url'];
+    const esc = (v)=>(''+(v??'')).replaceAll('"','""');
+    const lines = [cols.join(',')];
+    for(const b of books){
+      lines.push(cols.map(k=>`"${esc(b[k])}"`).join(','));
     }
-  }
-  return false;
-}
-async function probe(url){
-  try{ let r = await fetch(url, {method:'HEAD'}); if(r.ok) return true; }catch(e){}
-  try{ let r2 = await fetch(url, {method:'GET', cache:'no-store'}); return r2.ok; }catch(e){ return false; }
-}
-
-document.getElementById('fetchCovers').onclick = async ()=>{
-  showProgress('Fetching covers…');
-  let changed = 0;
-  for(const b of books){
-    const ok = await fetchCoverFor(b);
-    if(ok) changed++;
-  }
-  if(changed){
-    await saveLocal();
-    alert(`Added covers for ${changed} book(s).`);
-  } else {
-    alert('No new covers found.');
-  }
-};
-
-
-
-async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
-  const total = books.filter(b => !b.cover_url || !b.cover_url.trim()).length;
-  const queue = books.filter(b => !b.cover_url || !b.cover_url.trim());
-  let idx = 0, changed = 0;
-  async function worker(){
-    while(true){
-      const i = idx++; if(i >= queue.length) break;
-      const b = queue[i];
-      const ok = await fetchCoverFor(b);
-      if(ok){
-        changed++;
-        if(changed % saveEvery === 0){ await saveLocal(); }
-        if(typeof showProgress === 'function') showProgress(`Fetching covers… ${changed} / ${total} found`);
-      }
-    }
-  }
-  const workers = Array.from({length: Math.min(concurrency, queue.length)}, worker);
-  await Promise.all(workers);
-  if(changed % saveEvery !== 0){ await saveLocal(); }
-  if(typeof showProgress === 'function') showProgress(`Done: ${changed} cover(s) added`);
-  return changed;
+    const blob = new Blob([lines.join('\n')], {type:'text/csv'});
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement('a'), { href: url, download: 'library.csv' });
+    document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  };
 }
 
-document.getElementById('fetchCovers').onclick = async ()=>{
-  showProgress('Fetching covers…');
-  const changed = await bulkFillCoversAdmin({concurrency:8, saveEvery:25});
-  hideProgress();
-  alert(changed ? `Added covers for ${changed} book(s).` : 'No new covers found.');
-};
-
-document.getElementById('resetToSeed').onclick = async ()=>{
-  if(!confirm('This will discard your local edits and reload from the seed file. Continue?')) return;
-  const seed = await loadSeed();
-  saveToLocal(seed);
-  books = seed;
-  render();
-  alert('Reset complete (local only).');
-};
+async function init(){
+  try{
+    books = await loadStatic();
+    populateFilters();
+    bind();
+    render();
+  }catch(e){
+    els.status.textContent = 'Error: could not load data/library.json';
+    console.error(e);
+  }
+}
+init();
