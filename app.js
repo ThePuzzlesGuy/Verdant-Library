@@ -43,7 +43,38 @@ async function safeLoad(){
   }
 }
 
-async function loadBooks(){ BOOKS = await safeLoad(); }
+
+function ensureBanner(){
+  let b = document.getElementById('vh-banner');
+  if(!b){
+    b = document.createElement('div');
+    b.id='vh-banner';
+    b.style='margin:12px; padding:10px; border:1px solid #e6e7e9; background:#fff8e1; color:#5d4200; border-radius:6px;';
+    const main = document.querySelector('main') || document.body;
+    main.prepend(b);
+  }
+  return b;
+}
+async function seedFromStatic(){
+  const s = await fetch('data/library.json?_=' + Date.now());
+  const j = await s.json();
+  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  return j;
+}
+
+async function loadBooks(){ 
+  BOOKS = await safeLoad(); 
+  if(!Array.isArray(BOOKS) || BOOKS.length === 0){ 
+    const b = ensureBanner();
+    b.innerHTML = 'Initializing library data… <button id="vh-seed">Seed Now</button>';
+    document.getElementById('vh-seed').onclick = async ()=>{ 
+      b.textContent = 'Seeding…'; 
+      BOOKS = await seedFromStatic(); 
+      b.remove(); 
+      update(); 
+    };
+  }
+}
 
 function renderGenres(){
   const genres = unique(BOOKS, 'main_genre').sort((a,b)=>a.localeCompare(b));

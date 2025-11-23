@@ -1,4 +1,23 @@
 
+function ensureBanner(){
+  let b = document.getElementById('vh-banner');
+  if(!b){
+    b = document.createElement('div');
+    b.id='vh-banner';
+    b.style='margin:12px; padding:10px; border:1px solid #e6e7e9; background:#fff8e1; color:#5d4200; border-radius:6px;';
+    const main = document.querySelector('main') || document.body;
+    main.prepend(b);
+  }
+  return b;
+}
+async function seedFromStatic(){
+  const s = await fetch('data/library.json?_=' + Date.now());
+  const j = await s.json();
+  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  return j;
+}
+
+
 async function safeLoadAdmin(){
   try{
     const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
