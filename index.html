@@ -3,69 +3,89 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The Verdant Hollow Library</title>
+  <title>Verdant Hollow · Library</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <script defer src="app.js"></script>
 </head>
-<body class="theme-catalog">
-<header class="topbar">
-  <div class="brand">
-    <h1>The Verdant Hollow Library</h1>
-    <small class="muted">Card Catalog</small>
-  </div>
-  <nav class="toolbar">
-    <a href="admin.html" class="btn primary">Admin</a>
-  </nav>
-</header>
+<body class="theme-bn">
+  <header class="bn-top">
+    <div class="bn-topbar">
+      <div class="brand">Verdant <span>&amp;</span> Hollow</div>
+      <nav class="bn-actions">
+        <a class="link" href="admin.html">Admin</a>
+      </nav>
+    </div>
+    <div class="bn-searchbar">
+      <select id="all" class="select">
+        <option value="">All</option>
+      </select>
+      <input id="search" class="input" placeholder="Search by Title, Author, Keyword">
+      <button id="go" class="btn">Search</button>
+    </div>
+    <nav class="bn-nav">
+      <a class="navlink" href="#">Books</a>
+      <a class="navlink" href="#">Fiction</a>
+      <a class="navlink" href="#">Nonfiction</a>
+      <a class="navlink" href="#">Audiobooks</a>
+      <a class="navlink" href="#">Kids</a>
+      <a class="navlink" href="#">YA</a>
+      <a class="navlink" href="#">Stationery</a>
+      <a class="navlink" href="#">More</a>
+    </nav>
+  </header>
 
-<section class="controls">
-  <div class="row wrap">
-    <input id="search" class="input" placeholder="Search title, author, or series…" />
-    <select id="genre" class="input"></select>
-    <select id="status" class="input">
-      <option value="">All Read Status</option>
-      <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
-    </select>
-    <select id="availability" class="input">
-      <option value="">All</option>
-      <option value="in">Checked In</option>
-      <option value="out">Checked Out</option>
-    </select>
-    <select id="sort" class="input">
-      <option value="title-asc">Title A→Z</option>
-      <option value="title-desc">Title Z→A</option>
-      <option value="author-asc">Author A→Z</option>
-      <option value="author-desc">Author Z→A</option>
-      <option value="series-asc">Series A→Z</option>
-      <option value="rating-desc">Rating High→Low</option>
-    </select>
-  </div>
-  <div class="row">
-    <button class="btn" id="viewGrid" aria-pressed="true">Grid (Spines)</button>
-    <button class="btn" id="viewList" aria-pressed="false">List</button>
-  </div>
-</section>
+  <section class="bn-hero">
+    <div class="banner">
+      <div class="banner-text">
+        <div class="crumbs"><a href="#" class="crumb">Home</a> › <a href="#" class="crumb">Books</a></div>
+        <h1>Fiction Books</h1>
+        <p class="muted">Browse your shelves by genre, author, series, rating, and availability.</p>
+      </div>
+    </div>
+  </section>
 
-<main>
-  <div id="grid" class="grid grid-spines" hidden></div>
-  <table id="list" class="table" hidden>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Series</th>
-        <th>Genre</th>
-        <th>Status</th>
-        <th>Availability</th>
-        <th>Rating</th>
-        <th>Shelf</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</main>
+  <section class="content-wrap">
+    <aside class="sidebar">
+      <h3>Browse Genres</h3>
+      <ul id="genreList" class="sidelist"></ul>
 
-<footer class="footer muted">View is generated from <code>data/library.json</code>. Edit via Admin.</footer>
+      <h3>Filters</h3>
+      <label class="filter"><span>Status</span>
+        <select id="status" class="input">
+          <option value="">All</option>
+          <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
+        </select>
+      </label>
+      <label class="filter"><span>Availability</span>
+        <select id="availability" class="input">
+          <option value="">All</option>
+          <option value="in">Checked In</option>
+          <option value="out">Checked Out</option>
+        </select>
+      </label>
+      <label class="filter"><span>Sort</span>
+        <select id="sort" class="input">
+          <option value="title-asc">Title A→Z</option>
+          <option value="title-desc">Title Z→A</option>
+          <option value="author-asc">Author A→Z</option>
+          <option value="author-desc">Author Z→A</option>
+          <option value="series-asc">Series A→Z</option>
+          <option value="rating-desc">Rating High→Low</option>
+        </select>
+      </label>
+    </aside>
+
+    <main class="main">
+      <h2 class="section-title"><span id="sectionLabel">All Books</span></h2>
+      <div id="grid" class="bn-grid"></div>
+    </main>
+  </section>
+
+  <footer class="bn-foot">
+    <div class="foot-inner">
+      <small>Data source: <code>data/library.json</code>. Edit via <a href="admin.html">Admin</a>. No external services.</small>
+    </div>
+  </footer>
 </body>
 </html>
