@@ -83,7 +83,8 @@ async function fetchCoverFor(b){
   return false;
 }
 async function probe(url){
-  try{ const r = await fetch(url, {method:'HEAD'}); return r.ok; }catch(e){ return false; }
+  try{ let r = await fetch(url, {method:'HEAD'}); if(r.ok) return true; }catch(e){}
+  try{ let r2 = await fetch(url, {method:'GET', cache:'no-store'}); return r2.ok; }catch(e){ return false; }
 }
 
 document.getElementById('fetchCovers').onclick = async ()=>{
@@ -98,4 +99,31 @@ document.getElementById('fetchCovers').onclick = async ()=>{
   } else {
     alert('No new covers found.');
   }
+};
+
+
+
+async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
+  const queue = books.filter(b => !b.cover_url || !b.cover_url.trim());
+  let idx = 0, changed = 0;
+  async function worker(){
+    while(true){
+      const i = idx++; if(i >= queue.length) break;
+      const b = queue[i];
+      const ok = await fetchCoverFor(b);
+      if(ok){
+        changed++;
+        if(changed % saveEvery === 0){ await save(); }
+      }
+    }
+  }
+  const workers = Array.from({length: Math.min(concurrency, queue.length)}, worker);
+  await Promise.all(workers);
+  if(changed % saveEvery !== 0){ await save(); }
+  return changed;
+}
+
+document.getElementById('fetchCovers').onclick = async ()=>{
+  const changed = await bulkFillCoversAdmin({concurrency:8, saveEvery:25});
+  alert(changed ? `Added covers for ${changed} book(s).` : 'No new covers found.');
 };

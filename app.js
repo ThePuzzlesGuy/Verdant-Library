@@ -109,8 +109,12 @@ async function tryFetchCover(book){
 
 async function probe(url){
   try{
-    const r = await fetch(url, { method:'HEAD' });
-    return r.ok;
+    let r = await fetch(url, { method:'HEAD' });
+    if(r.ok) return true;
+  }catch(e){}
+  try{
+    let r2 = await fetch(url, { method:'GET', cache:'no-store' });
+    return r2.ok;
   }catch(e){ return false; }
 }
 
@@ -183,5 +187,38 @@ async function init(){
   renderGenres();
   bind();
   update();
+
+  // Auto seed covers once per device if many are missing
+  const missing = BOOKS.filter(b => !b.cover_url || !b.cover_url.trim()).length;
+  if(missing > 0 && localStorage.getItem('vh_covers_seeded') !== 'yes'){
+    bulkFillCovers(BOOKS, {concurrency:8, saveEvery:25}).then(changed => {
+      if(changed > 0){ update(); }
+      localStorage.setItem('vh_covers_seeded','yes');
+    });
+  }
 }
 init();
+
+
+// ===== Bulk cover fill across ALL books, with concurrency =====
+async function bulkFillCovers(books, {concurrency=8, saveEvery=20} = {}){
+  const queue = books.filter(b => !b.cover_url || !b.cover_url.trim());
+  let idx = 0, changed = 0;
+
+  async function worker(){
+    while(true){
+      const i = idx++; if(i >= queue.length) break;
+      const b = queue[i];
+      const ok = await tryFetchCover(b);
+      if(ok){
+        changed++;
+        if(changed % saveEvery === 0){ await persistBooks(); }
+      }
+    }
+  }
+  const workers = Array.from({length: Math.min(concurrency, queue.length)}, worker);
+  await Promise.all(workers);
+  if(changed % saveEvery !== 0){ await persistBooks(); }
+  return changed;
+}
+
