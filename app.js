@@ -1,4 +1,32 @@
 
+const LS_KEY = 'vh_books_v1';
+
+function loadFromLocal(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if(!raw) return null;
+    const data = JSON.parse(raw);
+    if(Array.isArray(data)) return data;
+    return null;
+  }catch(e){ return null; }
+}
+function saveToLocal(data){
+  try{ localStorage.setItem(LS_KEY, JSON.stringify(data)); }catch(e){ /* quota */ }
+}
+async function loadSeed(){
+  const r = await fetch('data/library.json?_=' + Date.now());
+  return await r.json();
+}
+async function ensureData(){
+  let data = loadFromLocal();
+  if(!data){
+    data = await loadSeed();
+    saveToLocal(data);
+  }
+  return data;
+}
+
+
 let BOOKS=[];
 const els = {
   genreList: document.getElementById('genreList'),
@@ -16,7 +44,7 @@ const unique = (arr, key) => [...new Set(arr.map(x => x[key]).filter(Boolean))];
 
 async function safeLoad(){
   try{
-    const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
+    const r = await fetch('data/library.json?_=' + Date.now());
     if(!r.ok) throw new Error('loadData ' + r.status);
     return await r.json();
   }catch(e){
@@ -27,7 +55,7 @@ async function safeLoad(){
       const j = await s.json();
       // Attempt to seed blobs asynchronously
       try{
-        await fetch('/.netlify/functions/saveData', {
+        await fetch('data/library.json', {
           method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j)
         });
       }catch(_e){ /* ignore */ }
@@ -58,7 +86,7 @@ function ensureBanner(){
 async function seedFromStatic(){
   const s = await fetch('data/library.json?_=' + Date.now());
   const j = await s.json();
-  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
   return j;
 }
 
@@ -216,9 +244,9 @@ function renderGrid(rows){
   });
 }
 
-async function persistBooks(){
+async function persistBooks(){ saveToLocal(BOOKS); return; /* local-only */
   try{
-    await fetch('/.netlify/functions/saveData', {
+    await fetch('data/library.json', {
       method:'POST', headers:{'Content-Type':'application/json'},
       body: JSON.stringify(BOOKS)
     });

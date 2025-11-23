@@ -1,4 +1,32 @@
 
+const LS_KEY = 'vh_books_v1';
+
+function loadFromLocal(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if(!raw) return null;
+    const data = JSON.parse(raw);
+    if(Array.isArray(data)) return data;
+    return null;
+  }catch(e){ return null; }
+}
+function saveToLocal(data){
+  try{ localStorage.setItem(LS_KEY, JSON.stringify(data)); }catch(e){ /* quota */ }
+}
+async function loadSeed(){
+  const r = await fetch('data/library.json?_=' + Date.now());
+  return await r.json();
+}
+async function ensureData(){
+  let data = loadFromLocal();
+  if(!data){
+    data = await loadSeed();
+    saveToLocal(data);
+  }
+  return data;
+}
+
+
 let __vh_source = 'unknown';
 function ensureBanner(){
   let b = document.getElementById('vh-banner');
@@ -14,7 +42,7 @@ function ensureBanner(){
 async function seedFromStatic(){
   const s = await fetch('data/library.json?_=' + Date.now());
   const j = await s.json();
-  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
   return j;
 }
 
@@ -33,12 +61,13 @@ function ensureBanner(){
 async function seedFromStatic(){
   const s = await fetch('data/library.json?_=' + Date.now());
   const j = await s.json();
-  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
   return j;
 }
 
 
-async function safeLoadAdmin(){
+async function safeLoadAdmin(){ /* not used in local build */ }
+
   const statusLine = document.getElementById('statusLine');
 
   try{
@@ -52,7 +81,7 @@ async function safeLoadAdmin(){
       if(!s.ok) throw new Error('seed ' + s.status);
       const j = await s.json(); __vh_source = 'static'; statusLine.textContent = 'Loaded from: Seed file';
       try{
-        await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+        await fetch('data/library.json', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
       }catch(_e){}
       return j;
     }catch(e2){
@@ -97,17 +126,17 @@ function edit(i){
   const who=prompt('Checked out to (blank if none)', b.checked_out_to_name||'')||'';
   const is_out=!!who;
   books[i]={...b,title,author,read_status:status,checked_out_to_name:who,is_checked_out:is_out};
-  save();
+  saveLocal();
 }
 
 function del(i){
   if(confirm('Delete '+books[i].title+'?')){
-    books.splice(i,1); save();
+    books.splice(i,1); saveLocal();
   }
 }
 
-async function save(){
-  await fetch('/.netlify/functions/saveData', {
+async function saveLocal(){
+  await fetch('data/library.json', {
     method:'POST', headers:{'Content-Type':'application/json'},
     body:JSON.stringify(books)
   });
@@ -117,7 +146,7 @@ async function save(){
 document.getElementById('newBook').onclick=()=>{
   const title=prompt('Title'); if(!title)return;
   books.push({title,author:'',is_checked_out:false});
-  save();
+  saveLocal();
 };
 
 document.getElementById('export').onclick=()=>{
@@ -165,7 +194,7 @@ document.getElementById('fetchCovers').onclick = async ()=>{
     if(ok) changed++;
   }
   if(changed){
-    await save();
+    await saveLocal();
     alert(`Added covers for ${changed} book(s).`);
   } else {
     alert('No new covers found.');
@@ -185,14 +214,14 @@ async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
       const ok = await fetchCoverFor(b);
       if(ok){
         changed++;
-        if(changed % saveEvery === 0){ await save(); }
+        if(changed % saveEvery === 0){ await saveLocal(); }
         if(typeof showProgress === 'function') showProgress(`Fetching covers… ${changed} / ${total} found`);
       }
     }
   }
   const workers = Array.from({length: Math.min(concurrency, queue.length)}, worker);
   await Promise.all(workers);
-  if(changed % saveEvery !== 0){ await save(); }
+  if(changed % saveEvery !== 0){ await saveLocal(); }
   if(typeof showProgress === 'function') showProgress(`Done: ${changed} cover(s) added`);
   return changed;
 }
@@ -202,4 +231,13 @@ document.getElementById('fetchCovers').onclick = async ()=>{
   const changed = await bulkFillCoversAdmin({concurrency:8, saveEvery:25});
   hideProgress();
   alert(changed ? `Added covers for ${changed} book(s).` : 'No new covers found.');
+};
+
+document.getElementById('resetToSeed').onclick = async ()=>{
+  if(!confirm('This will discard your local edits and reload from the seed file. Continue?')) return;
+  const seed = await loadSeed();
+  saveToLocal(seed);
+  books = seed;
+  render();
+  alert('Reset complete (local only).');
 };
