@@ -73,3 +73,22 @@ body{margin:0;font:15px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetic
   .content-wrap{grid-template-columns:1fr}
   .sidebar{border-right:none;padding-right:0}
 }
+
+
+/* ---- Uniform cover sizing & fit ---- */
+.cover{ 
+  aspect-ratio: 2 / 3;            /* lock ratio */
+  background:#fff;                /* neutral backdrop behind images */
+  border-bottom:1px solid var(--bn-line);
+  display:flex; align-items:center; justify-content:center;
+  position:relative; overflow:hidden;
+  padding:6px;                    /* small gutter around the image */
+}
+.cover img{
+  width:100%; height:100%;
+  object-fit:contain;             /* see whole cover */
+  object-position:center;
+  display:block;
+  background:#fff;                /* avoids transparent PNG oddities */
+}
+/* fallback colored block already fills .cover; keep aspect via container */
