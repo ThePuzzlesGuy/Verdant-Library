@@ -1,4 +1,24 @@
 
+let __vh_source = 'unknown';
+function ensureBanner(){
+  let b = document.getElementById('vh-banner');
+  if(!b){
+    b = document.createElement('div');
+    b.id='vh-banner';
+    b.style='margin:12px; padding:10px; border:1px solid #e6e7e9; background:#fff8e1; color:#5d4200; border-radius:6px;';
+    const main = document.querySelector('main') || document.body;
+    (document.querySelector('header')||main).after(b);
+  }
+  return b;
+}
+async function seedFromStatic(){
+  const s = await fetch('data/library.json?_=' + Date.now());
+  const j = await s.json();
+  await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
+  return j;
+}
+
+
 function ensureBanner(){
   let b = document.getElementById('vh-banner');
   if(!b){
@@ -19,19 +39,20 @@ async function seedFromStatic(){
 
 
 async function safeLoadAdmin(){
+  const statusLine = document.getElementById('statusLine');
+
   try{
     const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
     if(!r.ok) throw new Error('loadData ' + r.status);
+    __vh_source = 'cloud'; statusLine.textContent = 'Loaded from: Cloud';
     return await r.json();
   }catch(e){
     try{
       const s = await fetch('data/library.json?_=' + Date.now());
       if(!s.ok) throw new Error('seed ' + s.status);
-      const j = await s.json();
+      const j = await s.json(); __vh_source = 'static'; statusLine.textContent = 'Loaded from: Seed file';
       try{
-        await fetch('/.netlify/functions/saveData', {
-          method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j)
-        });
+        await fetch('/.netlify/functions/saveData', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j) });
       }catch(_e){}
       return j;
     }catch(e2){

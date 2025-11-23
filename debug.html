@@ -1,0 +1,20 @@
+
+<!doctype html><meta charset="utf-8"><title>Debug · Verdant Library</title>
+<style>body{font-family:system-ui,sans-serif;padding:16px} pre{background:#f5f5f5;padding:10px;border-radius:8px;overflow:auto}</style>
+<h1>Debug</h1>
+<button id="test">Run Test</button>
+<pre id="out">Waiting…</pre>
+<script>
+async function tryUrl(url){
+  try{
+    const r = await fetch(url+'?_='+Date.now());
+    const ok = r.ok; const text = await r.text();
+    return {url, ok, len: text.length, sample: text.slice(0,200)};
+  }catch(e){ return {url, ok:false, error: String(e)}; }
+}
+document.getElementById('test').onclick = async ()=> {
+  const a = await tryUrl('/.netlify/functions/loadData');
+  const b = await tryUrl('data/library.json');
+  document.getElementById('out').textContent = JSON.stringify({function:a, static:b}, null, 2);
+};
+</script>
