@@ -1,4 +1,28 @@
 
+async function safeLoadAdmin(){
+  try{
+    const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
+    if(!r.ok) throw new Error('loadData ' + r.status);
+    return await r.json();
+  }catch(e){
+    try{
+      const s = await fetch('data/library.json?_=' + Date.now());
+      if(!s.ok) throw new Error('seed ' + s.status);
+      const j = await s.json();
+      try{
+        await fetch('/.netlify/functions/saveData', {
+          method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j)
+        });
+      }catch(_e){}
+      return j;
+    }catch(e2){
+      alert('Error loading books. If you just deployed, Netlify may still be installing dependencies. Try again shortly.');
+      return [];
+    }
+  }
+}
+
+
 const progressOverlay = document.getElementById('progressOverlay');
 const progressText = document.getElementById('progressText');
 function showProgress(msg){ progressText.textContent = msg||'Working…'; progressOverlay.style.display='flex'; }
@@ -111,6 +135,7 @@ document.getElementById('fetchCovers').onclick = async ()=>{
 
 
 async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
+  const total = books.filter(b => !b.cover_url || !b.cover_url.trim()).length;
   const queue = books.filter(b => !b.cover_url || !b.cover_url.trim());
   let idx = 0, changed = 0;
   async function worker(){
@@ -121,12 +146,14 @@ async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
       if(ok){
         changed++;
         if(changed % saveEvery === 0){ await save(); }
+        if(typeof showProgress === 'function') showProgress(`Fetching covers… ${changed} / ${total} found`);
       }
     }
   }
   const workers = Array.from({length: Math.min(concurrency, queue.length)}, worker);
   await Promise.all(workers);
   if(changed % saveEvery !== 0){ await save(); }
+  if(typeof showProgress === 'function') showProgress(`Done: ${changed} cover(s) added`);
   return changed;
 }
 
