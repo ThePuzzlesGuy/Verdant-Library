@@ -8,16 +8,64 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="app.js"></script>
 </head>
-<body>
-<header><h1>The Verdant Hollow Library</h1><a href="admin.html" class="button">Admin</a></header>
-<section class="filters">
-  <input id="search" placeholder="Search title, author, or series...">
-  <select id="genre"></select>
-  <select id="status">
-    <option value="">All Read Status</option>
-    <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
-  </select>
+<body class="theme-catalog">
+<header class="topbar">
+  <div class="brand">
+    <h1>The Verdant Hollow Library</h1>
+    <small class="muted">Card Catalog</small>
+  </div>
+  <nav class="toolbar">
+    <a href="admin.html" class="btn primary">Admin</a>
+  </nav>
+</header>
+
+<section class="controls">
+  <div class="row wrap">
+    <input id="search" class="input" placeholder="Search title, author, or series…" />
+    <select id="genre" class="input"></select>
+    <select id="status" class="input">
+      <option value="">All Read Status</option>
+      <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
+    </select>
+    <select id="availability" class="input">
+      <option value="">All</option>
+      <option value="in">Checked In</option>
+      <option value="out">Checked Out</option>
+    </select>
+    <select id="sort" class="input">
+      <option value="title-asc">Title A→Z</option>
+      <option value="title-desc">Title Z→A</option>
+      <option value="author-asc">Author A→Z</option>
+      <option value="author-desc">Author Z→A</option>
+      <option value="series-asc">Series A→Z</option>
+      <option value="rating-desc">Rating High→Low</option>
+    </select>
+  </div>
+  <div class="row">
+    <button class="btn" id="viewGrid" aria-pressed="true">Grid (Spines)</button>
+    <button class="btn" id="viewList" aria-pressed="false">List</button>
+  </div>
 </section>
-<main id="grid" class="grid"></main>
+
+<main>
+  <div id="grid" class="grid grid-spines" hidden></div>
+  <table id="list" class="table" hidden>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Series</th>
+        <th>Genre</th>
+        <th>Status</th>
+        <th>Availability</th>
+        <th>Rating</th>
+        <th>Shelf</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<footer class="footer muted">View is generated from <code>data/library.json</code>. Edit via Admin.</footer>
 </body>
 </html>
