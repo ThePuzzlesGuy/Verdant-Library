@@ -39,8 +39,6 @@ function starify(r){
   return '★'.repeat(full) + (half?'½':''); // simple display
 }
 
-function spineColor(c){ return c && c.trim() ? c : '#cfcfcf'; }
-
 function getActiveGenre(){
   const a = els.genreList.querySelector('a.active');
   return a ? a.dataset.genre : '';
@@ -74,18 +72,60 @@ function applyFilters(){
   return rows;
 }
 
+function coverImg(url, spineColor){
+  if(url && url.trim()){
+    return `<img src="${url}" alt="" loading="lazy" />`;
+  }
+  // fallback: spine color block as faux cover
+  const c = spineColor && spineColor.trim() ? spineColor : '#cfcfcf';
+  return `<div style="width:100%;height:100%;background:${c};"></div>`;
+}
+
+async function tryFetchCover(book){
+  // If cover already present, skip
+  if(book.cover_url && book.cover_url.trim()) return null;
+
+  // 1) ISBN direct cover
+  if(book.isbn){
+    const url = `https://covers.openlibrary.org/b/isbn/${encodeURIComponent(book.isbn)}-L.jpg?default=false`;
+    // optimistic use; let the image try to load; if it 404s, fallback to search
+    const ok = await probe(url);
+    if(ok){ book.cover_url = url; return url; }
+  }
+  // 2) Search by title + author to get cover id
+  const q = new URLSearchParams({ title: book.title || '', author: book.author || '' }).toString();
+  const resp = await fetch(`https://openlibrary.org/search.json?${q}`);
+  if(resp.ok){
+    const data = await resp.json();
+    const doc = (data.docs||[]).find(d => d.cover_i);
+    if(doc && doc.cover_i){
+      const url = `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`;
+      book.cover_url = url;
+      return url;
+    }
+  }
+  return null;
+}
+
+async function probe(url){
+  try{
+    const r = await fetch(url, { method:'HEAD' });
+    return r.ok;
+  }catch(e){ return false; }
+}
+
 function renderGrid(rows){
   els.grid.innerHTML = '';
-  for(const b of rows){
+  rows.forEach((b, idx) => {
     const card = document.createElement('article');
     card.className = 'card';
 
     const cover = document.createElement('div');
     cover.className = 'cover';
-    cover.style.setProperty('--spine', spineColor(b.jacket_color));
-    const spine = document.createElement('div');
-    spine.className = 'spine'; // purely decorative in CSS
-    cover.append(spine);
+    cover.style.setProperty('--spine', b.jacket_color || '#cfcfcf');
+    // initially render what we have
+    cover.innerHTML = b.cover_url ? `<img src="${b.cover_url}" alt="" loading="lazy" />`
+                                  : `<div style="width:100%;height:100%;background:${b.jacket_color||'#cfcfcf'}"></div>`;
 
     const body = document.createElement('div');
     body.className = 'card-body';
@@ -101,7 +141,26 @@ function renderGrid(rows){
 
     card.append(cover, body);
     els.grid.append(card);
-  }
+
+    // Lazy fetch cover if missing and persist
+    if(!b.cover_url){
+      tryFetchCover(b).then(found => {
+        if(found){
+          cover.innerHTML = `<img src="${found}" alt="" loading="lazy" />`;
+          persistBooks(); // write back to library.json so it stays
+        }
+      });
+    }
+  });
+}
+
+async function persistBooks(){
+  try{
+    await fetch('/.netlify/functions/saveData', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(BOOKS)
+    });
+  }catch(e){ /* ignore */ }
 }
 
 function bind(){

@@ -10,7 +10,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Conjuring of Light",
@@ -23,7 +25,9 @@
     "shelf_location": "Wall Shelf 8.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Court of Frost and Starlight",
@@ -36,7 +40,9 @@
     "shelf_location": "Wall Shelf 6.3",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Court of Mist and Fury",
@@ -49,7 +55,9 @@
     "shelf_location": "Wall Shelf 6.3",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Court of Silver Flames",
@@ -62,7 +70,9 @@
     "shelf_location": "Wall Shelf 6.3",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Court of Thorns and Roses",
@@ -75,7 +85,9 @@
     "shelf_location": "Wall Shelf 6.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Court of Wings and Ruin",
@@ -88,7 +100,9 @@
     "shelf_location": "Wall Shelf 6.3",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Curse Carved in Bone",
@@ -101,7 +115,9 @@
     "shelf_location": "Wall Shelf 2.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Darker Shade of Magic",
@@ -114,7 +130,9 @@
     "shelf_location": "Wall Shelf 8.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Fate Inked in Blood",
@@ -127,7 +145,9 @@
     "shelf_location": "Wall Shelf 2.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Flicker in the Dark",
@@ -140,7 +160,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Gathering of Shadows",
@@ -153,7 +175,9 @@
     "shelf_location": "Wall Shelf 3.2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Good Marriage",
@@ -166,7 +190,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Little Life",
@@ -179,7 +205,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Nearly Normal Family",
@@ -192,7 +220,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Short Walk Through a Wide World",
@@ -205,7 +235,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Talent for Murder",
@@ -218,7 +250,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Thousand Brains",
@@ -231,7 +265,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Thousand Times Before",
@@ -244,7 +280,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "A Woman is No Man",
@@ -257,7 +295,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Abaddon's Gate",
@@ -270,7 +310,9 @@
     "shelf_location": "Wall Shelf 7.1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Adelaide",
@@ -283,7 +325,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Again and Again",
@@ -296,7 +340,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Age of Vice",
@@ -309,7 +355,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Alchemy of Secrets",
@@ -322,7 +370,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Alice's Adventures in Wonderland & Through the Looking-Glass",
@@ -335,7 +385,9 @@
     "shelf_location": "Desk Wall 1.1c",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "All Adults Here",
@@ -348,7 +400,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "All the Ugly and Wonderful Things",
@@ -361,7 +415,9 @@
     "shelf_location": "Desk Wall 1.2b",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Among Friends",
@@ -374,7 +430,9 @@
     "shelf_location": "Wall Shelf 1.1",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "An Anonymous Girl",
@@ -387,7 +445,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "An Honest Woman",
@@ -400,7 +460,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "An Offer From A Gentleman & Romancing Mister Bridgerton",
@@ -413,7 +475,9 @@
     "shelf_location": "Wall Shelf 5.1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "An Unsuitable Job for a Woman",
@@ -426,7 +490,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Anna K: A Love Story",
@@ -439,7 +505,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Anna K: Away",
@@ -452,7 +520,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Annie Bot",
@@ -465,7 +535,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Anxious People",
@@ -478,7 +550,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Apples Never Fall",
@@ -491,7 +565,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Assissin's Blade",
@@ -504,7 +580,9 @@
     "shelf_location": "Wall Shelf 6.2",
     "jacket_color": "",
     "checked_out_to_name": "Brittany Spring",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Babylonia",
@@ -517,7 +595,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Beach Read",
@@ -530,7 +610,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Before She Knew Him",
@@ -543,7 +625,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Big Friendship",
@@ -556,7 +640,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Bittersweet",
@@ -569,7 +655,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Black Cake",
@@ -582,7 +670,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Bloodguard",
@@ -595,7 +685,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Burnout: The Secret to Unlocking the Stress Cycle",
@@ -608,7 +700,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Bury Our Bones in the Midnight Soil",
@@ -621,7 +715,9 @@
     "shelf_location": "Wall Shelf 10.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Caliban's War",
@@ -634,7 +730,9 @@
     "shelf_location": "Wall Shelf 7.1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Calypso",
@@ -647,7 +745,9 @@
     "shelf_location": "",
     "jacket_color": "yellow",
     "checked_out_to_name": "Troy's Library",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Camp Zero",
@@ -660,7 +760,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "teal",
     "checked_out_to_name": "Alexander Moon",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Care and Feeding: A Memior",
@@ -673,7 +775,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Carl's Doomsday Scenario",
@@ -686,7 +790,9 @@
     "shelf_location": "Wall Shelf 4.3",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Chapterhouse: Dune",
@@ -699,7 +805,9 @@
     "shelf_location": "Desk Wall 1.1b",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Children of Dune",
@@ -712,7 +820,9 @@
     "shelf_location": "Desk Wall 1.1a",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Children of the Mind",
@@ -725,7 +835,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Circe",
@@ -738,7 +850,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Cross Her Heart",
@@ -751,7 +865,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Crossed (Collector's Edition) unknown",
@@ -764,7 +880,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Crown of Midnight",
@@ -777,7 +895,9 @@
     "shelf_location": "Wall Shelf 6.2",
     "jacket_color": "",
     "checked_out_to_name": "Brittany Spring",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Daisy Jones & The Six",
@@ -790,7 +910,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dark Age",
@@ -803,7 +925,9 @@
     "shelf_location": "Wall Shelf 5.1",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dark Corners",
@@ -816,7 +940,9 @@
     "shelf_location": "Wall Shelf 3.3",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dark Matter",
@@ -829,7 +955,9 @@
     "shelf_location": "Wall Shelf 7.2",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dark Places",
@@ -842,7 +970,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Darling Girl",
@@ -855,7 +985,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dead Girls Don't Talk",
@@ -868,7 +1000,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "",
     "checked_out_to_name": "Maddie Hoppel",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Definitely Better Now",
@@ -881,7 +1015,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Diana in Love",
@@ -894,7 +1030,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Diana Says Yes",
@@ -907,7 +1045,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Did You Hear About Kitty Karr?",
@@ -920,7 +1060,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dinner for Vampires: Life on a Cult Tv Show",
@@ -933,7 +1075,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dirty Diana",
@@ -946,7 +1090,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dune",
@@ -959,7 +1105,9 @@
     "shelf_location": "Desk Wall 1.1a",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dune Messiah",
@@ -972,7 +1120,9 @@
     "shelf_location": "Desk Wall 1.1a",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dungeon Crawler Carl",
@@ -985,7 +1135,9 @@
     "shelf_location": "Wall Shelf 4.3",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Dust",
@@ -998,7 +1150,9 @@
     "shelf_location": "Wall Shelf 8.1",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Early Risers",
@@ -1011,7 +1165,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Echo Fort",
@@ -1024,7 +1180,9 @@
     "shelf_location": "Wall Shelf 4.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Edgy Conversations: How Ordinary People Can Achieve Outrageous Success",
@@ -1037,7 +1195,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Empire of Storms",
@@ -1050,7 +1210,9 @@
     "shelf_location": "Wall Shelf 6.1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ender's Exile",
@@ -1063,7 +1225,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ender's Game",
@@ -1076,7 +1240,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "Jayse Lawrence",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ender's Game",
@@ -1089,7 +1255,9 @@
     "shelf_location": "Desk Wall 3.1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Every Sweet Thing Is Bitter",
@@ -1102,7 +1270,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Expiration Dates",
@@ -1115,7 +1285,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Family Lore",
@@ -1128,7 +1300,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Fearless",
@@ -1141,7 +1315,9 @@
     "shelf_location": "Wall Shelf 9.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Finding Grace",
@@ -1154,7 +1330,9 @@
     "shelf_location": "Wall Shelf 1.1",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Fire Keeper's Daughter",
@@ -1167,7 +1345,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Five-Star Stranger",
@@ -1180,7 +1360,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Flowers For Algernon",
@@ -1193,7 +1375,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "For Better and Worse",
@@ -1206,7 +1390,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Foul Heart Huntsman",
@@ -1219,7 +1405,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Foul Lady Fortune",
@@ -1232,7 +1420,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Fourth Wing",
@@ -1245,7 +1435,9 @@
     "shelf_location": "Wall Shelf 7.3",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Gathering Blue",
@@ -1258,7 +1450,9 @@
     "shelf_location": "Wall Shelf 7.4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Genuine Fraud",
@@ -1271,7 +1465,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Georgia All Along",
@@ -1284,7 +1480,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Get a Life, Chloe Brown",
@@ -1297,7 +1495,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ghosted",
@@ -1310,7 +1510,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Gifted & Talented",
@@ -1323,7 +1525,9 @@
     "shelf_location": "Wall Shelf 5.4",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Girl A",
@@ -1336,7 +1540,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Girl One",
@@ -1349,7 +1555,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "God Emperor of Dune",
@@ -1362,7 +1570,9 @@
     "shelf_location": "Desk Wall 1.1b",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Golden Child",
@@ -1375,7 +1585,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Golden Son",
@@ -1388,7 +1600,9 @@
     "shelf_location": "Wall Shelf 5.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Golden State",
@@ -1401,7 +1615,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Gone Before Goodbye",
@@ -1414,7 +1630,9 @@
     "shelf_location": "",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Good Company",
@@ -1427,7 +1645,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Goodnight Beautiful",
@@ -1440,7 +1660,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Group",
@@ -1453,7 +1675,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Hang the Moon",
@@ -1466,7 +1690,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Happiness Falls",
@@ -1479,7 +1705,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Happy & You Know It",
@@ -1492,7 +1720,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Heir of Fire",
@@ -1505,7 +1735,9 @@
     "shelf_location": "Wall Shelf 6.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Hell Bent",
@@ -1518,7 +1750,9 @@
     "shelf_location": "Wall Shelf 11.1",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Hello Stranger",
@@ -1531,7 +1765,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Here After",
@@ -1544,7 +1780,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Heretics of Dune",
@@ -1557,7 +1795,9 @@
     "shelf_location": "Desk Wall 1.1b",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Hexed (Collector's Edition) unknown",
@@ -1570,7 +1810,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Homeseeking",
@@ -1583,7 +1825,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Honey Girl",
@@ -1596,7 +1840,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Hooked (Collector's Edition)",
@@ -1609,7 +1855,9 @@
     "shelf_location": "Wall Shelf 3.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "House of Earth and Blood",
@@ -1622,7 +1870,9 @@
     "shelf_location": "Wall Shelf 6.4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "House of Flame and Shadow",
@@ -1635,7 +1885,9 @@
     "shelf_location": "Wall Shelf 6.4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "House of Sky and Breath",
@@ -1648,7 +1900,9 @@
     "shelf_location": "Wall Shelf 6.4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "How Lucky",
@@ -1661,7 +1915,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "How Not to Die Alone",
@@ -1674,7 +1930,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "I'm F*cking Amazing",
@@ -1687,7 +1945,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "If I Go Missing",
@@ -1700,7 +1960,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Immortal Consequences \ufffc",
@@ -1713,7 +1975,9 @@
     "shelf_location": "Wall Shelf 11.3",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Immortal Longings",
@@ -1726,7 +1990,9 @@
     "shelf_location": "Wall Shelf 1.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "In the Weeds",
@@ -1739,7 +2005,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "Troy's Library",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ink Blood Sister Scribe",
@@ -1752,7 +2020,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Interesting Facts About Space",
@@ -1765,7 +2035,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Introducing World Religions",
@@ -1778,7 +2050,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Iron Flame",
@@ -1791,7 +2065,9 @@
     "shelf_location": "Wall Shelf 7.3",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Iron Gold",
@@ -1804,7 +2080,9 @@
     "shelf_location": "Wall Shelf 5.1",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Isola",
@@ -1817,7 +2095,9 @@
     "shelf_location": "Wall Shelf 3.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "It's In His Kiss & On The Way To The Wedding",
@@ -1830,7 +2110,9 @@
     "shelf_location": "Wall Shelf 5.2",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Just for the Summer",
@@ -1843,7 +2125,9 @@
     "shelf_location": "Wall Shelf 1.3",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Kingdom of Ash",
@@ -1856,7 +2140,9 @@
     "shelf_location": "Wall Shelf 6.1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Kiss Her Once for Me",
@@ -1869,7 +2155,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ladyparts",
@@ -1882,7 +2170,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Last Violent Call",
@@ -1895,7 +2185,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Leviathan Wakes",
@@ -1908,7 +2200,9 @@
     "shelf_location": "Wall Shelf 7.1",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Light Bringer",
@@ -1921,7 +2215,9 @@
     "shelf_location": "Wall Shelf 5.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Lightbreakers",
@@ -1934,7 +2230,9 @@
     "shelf_location": "",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Liquid",
@@ -1947,7 +2245,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Little Darlings",
@@ -1960,7 +2260,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Lo fi",
@@ -1973,7 +2275,9 @@
     "shelf_location": "Wall Shelf 2.1",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Lock Every Door",
@@ -1986,7 +2290,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Long Bright River",
@@ -1999,7 +2305,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Love on the Brain",
@@ -2012,7 +2320,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Maame",
@@ -2025,7 +2335,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Madwoman",
@@ -2038,7 +2350,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Maggie; or, a Man and a Woman Walk Into a Bar",
@@ -2051,7 +2365,9 @@
     "shelf_location": "Wall Shelf 2.2",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Maktub",
@@ -2064,7 +2380,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Memorial",
@@ -2077,7 +2395,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Mercury",
@@ -2090,7 +2410,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Messenger",
@@ -2103,7 +2425,9 @@
     "shelf_location": "Wall Shelf 7.4",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Miracle Creek",
@@ -2116,7 +2440,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Morning Star",
@@ -2129,7 +2455,9 @@
     "shelf_location": "Wall Shelf 5.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Municipalists",
@@ -2142,7 +2470,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "My Body",
@@ -2155,7 +2485,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "My Dark Vanessa",
@@ -2168,7 +2500,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "My Friend Anna",
@@ -2181,7 +2515,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Necessary People",
@@ -2194,7 +2530,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Never Keep",
@@ -2207,7 +2545,9 @@
     "shelf_location": "Wall Shelf 4.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Next to Heaven",
@@ -2220,7 +2560,9 @@
     "shelf_location": "Wall Shelf 2.4",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ninth House",
@@ -2233,7 +2575,9 @@
     "shelf_location": "Wall Shelf 11.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "No Exit",
@@ -2246,7 +2590,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "None of This is True",
@@ -2259,7 +2605,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Not a Happy Familly",
@@ -2272,7 +2620,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "November Road",
@@ -2285,7 +2635,9 @@
     "shelf_location": "Desk Wall 1.1c",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Olga Dies Dreaming",
@@ -2298,7 +2650,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "One of Our Kind",
@@ -2311,7 +2665,9 @@
     "shelf_location": "Wall Shelf 3.1",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Onyx Storm",
@@ -2324,7 +2680,9 @@
     "shelf_location": "Wall Shelf 7.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Our Infinite Fates",
@@ -2337,7 +2695,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Our Violent Ends",
@@ -2350,7 +2710,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "P.S. I Hate You",
@@ -2363,7 +2725,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Paper Names",
@@ -2376,7 +2740,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Part of Your World",
@@ -2389,7 +2755,9 @@
     "shelf_location": "Wall Shelf 1.3",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "People We Meet on Vacation",
@@ -2402,7 +2770,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Perfect Little World",
@@ -2415,7 +2785,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Philosphy, Reasoned Belief, and Faith",
@@ -2428,7 +2800,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Powerful",
@@ -2441,7 +2815,9 @@
     "shelf_location": "Wall Shelf 9.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Powerless",
@@ -2454,7 +2830,9 @@
     "shelf_location": "Wall Shelf 9.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Pretty Boys Are Poisonous",
@@ -2467,7 +2845,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Pretty Little Wife",
@@ -2480,7 +2860,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Pretty Things",
@@ -2493,7 +2875,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Queen of Clubs",
@@ -2506,7 +2890,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Queen of Diamonds",
@@ -2519,7 +2905,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Queen of Shadows",
@@ -2532,7 +2920,9 @@
     "shelf_location": "Wall Shelf 6.1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Queen of Thieves",
@@ -2545,7 +2935,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Razorblade Tears",
@@ -2558,7 +2950,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ready Player One",
@@ -2571,7 +2965,9 @@
     "shelf_location": "Wall Shelf 4.4",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Ready Player Two",
@@ -2584,7 +2980,9 @@
     "shelf_location": "Wall Shelf 4.4",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Really Good, Actually",
@@ -2597,7 +2995,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Rebel Witch",
@@ -2610,7 +3010,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Reckless",
@@ -2623,7 +3025,9 @@
     "shelf_location": "Wall Shelf 9.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Recursion",
@@ -2636,7 +3040,9 @@
     "shelf_location": "Wall Shelf 7.2",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Red City",
@@ -2649,7 +3055,9 @@
     "shelf_location": "",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Red God",
@@ -2662,7 +3070,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Red Rising",
@@ -2675,7 +3085,9 @@
     "shelf_location": "Wall Shelf 5.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Resurrection Walk",
@@ -2688,7 +3100,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Rooms For Vanishing",
@@ -2701,7 +3115,9 @@
     "shelf_location": "Wall Shelf 2.1",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Rootless",
@@ -2714,7 +3130,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Scarred (Collector's Edition)",
@@ -2727,7 +3145,9 @@
     "shelf_location": "Wall Shelf 2.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Second Chance Cinema",
@@ -2740,7 +3160,9 @@
     "shelf_location": "Wall Shelf 11.4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Seduction Theory",
@@ -2753,7 +3175,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Severance",
@@ -2766,7 +3190,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Shark Heart",
@@ -2779,7 +3205,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Shed No Tears",
@@ -2792,7 +3220,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Shift",
@@ -2805,7 +3235,9 @@
     "shelf_location": "Wall Shelf 8.1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Sign Here",
@@ -2818,7 +3250,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Silver Elite",
@@ -2831,7 +3265,9 @@
     "shelf_location": "Wall Shelf 5.3",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Silver Elite Unreleased Title",
@@ -2844,7 +3280,9 @@
     "shelf_location": "Wall Shelf 5.3",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Since We Fell",
@@ -2857,7 +3295,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Six Days In Bombay",
@@ -2870,7 +3310,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Someday Maybe",
@@ -2883,7 +3325,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Son",
@@ -2896,7 +3340,9 @@
     "shelf_location": "Wall Shelf 7.4",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Speaker for the Dead",
@@ -2909,7 +3355,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Stone Cold Heart",
@@ -2922,7 +3370,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Sweet Little Lies",
@@ -2935,7 +3385,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Table for Two",
@@ -2948,7 +3400,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Tell Me Everything",
@@ -2961,7 +3415,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Tell Me What You Did",
@@ -2974,7 +3430,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Alchemist & Other Novels",
@@ -2987,7 +3445,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Bombshell",
@@ -3000,7 +3460,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Bones Beneath My Skin",
@@ -3013,7 +3475,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Book of Cold Cases",
@@ -3026,7 +3490,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Book of Essie",
@@ -3039,7 +3505,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Book of Lost Hours",
@@ -3052,7 +3520,9 @@
     "shelf_location": "Wall Shelf 11.4",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Boyfriend Project",
@@ -3065,7 +3535,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Brass Verdict",
@@ -3078,7 +3550,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Bride Test",
@@ -3091,7 +3565,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Butcher's Masquerade",
@@ -3104,7 +3580,9 @@
     "shelf_location": "Wall Shelf 4.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Case For Christ",
@@ -3117,7 +3595,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "brown",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Collected Regrets of Clover",
@@ -3130,7 +3610,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "the collective",
@@ -3143,7 +3625,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Compound",
@@ -3156,7 +3640,9 @@
     "shelf_location": "Wall Shelf 2.2",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Connellys of County Down",
@@ -3169,7 +3655,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Couple Next Door",
@@ -3182,7 +3670,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Courting of Bristol Keats",
@@ -3195,7 +3685,9 @@
     "shelf_location": "Wall Shelf 11.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Dagger and the Flame",
@@ -3208,7 +3700,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Dating Plan",
@@ -3221,7 +3715,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Deepest Lake",
@@ -3234,7 +3730,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Diary of a Young Girl",
@@ -3247,7 +3745,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Disappearance of Astrid Bricard",
@@ -3260,7 +3760,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Duke and I & The Viscount Who Loved Me",
@@ -3273,7 +3775,9 @@
     "shelf_location": "Wall Shelf 5.1",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Dungeon Anarchist's Cookbook",
@@ -3286,7 +3790,9 @@
     "shelf_location": "Wall Shelf 4.3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Essential Guide to Chakras",
@@ -3299,7 +3805,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Ex Hex",
@@ -3312,7 +3820,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Eye of the Bedlam Bride",
@@ -3325,7 +3835,9 @@
     "shelf_location": "Wall Shelf 4.2",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Fall of Roe: The Rise of a New America",
@@ -3338,7 +3850,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Familiar",
@@ -3351,7 +3865,9 @@
     "shelf_location": "Wall Shelf 11.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Fifth Witness",
@@ -3364,7 +3880,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The First Fifteen Lives of Harry August",
@@ -3377,7 +3895,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "",
     "checked_out_to_name": "Alexander Moon",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Fragile Threads of Power",
@@ -3390,7 +3910,9 @@
     "shelf_location": "Wall Shelf 10.2",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Future",
@@ -3403,7 +3925,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Gate of the Feral Gods",
@@ -3416,7 +3940,9 @@
     "shelf_location": "Wall Shelf 4.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Girl From Blink River",
@@ -3429,7 +3955,9 @@
     "shelf_location": "Wall Shelf 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Girl in the Mirror",
@@ -3442,7 +3970,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Giver",
@@ -3455,7 +3985,9 @@
     "shelf_location": "Wall Shelf 7.4",
     "jacket_color": "red",
     "checked_out_to_name": "Alexander Moon",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Giver of Stars",
@@ -3468,7 +4000,9 @@
     "shelf_location": "Desk Wall 1.2a",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The God of the Woods",
@@ -3481,7 +4015,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Gods of Greenwich",
@@ -3494,7 +4030,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Gods of Guilt",
@@ -3507,7 +4045,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Golden Couple",
@@ -3520,7 +4060,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Great Pretenders",
@@ -3533,7 +4075,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Guest List",
@@ -3546,7 +4090,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Handmaid's Tale",
@@ -3559,7 +4105,9 @@
     "shelf_location": "Wall Shelf 11.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Heart Principle",
@@ -3572,7 +4120,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Heartless Hunter",
@@ -3585,7 +4135,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Helsinki Affair",
@@ -3598,7 +4150,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Holdout",
@@ -3611,7 +4165,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Husbands",
@@ -3624,7 +4180,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Inheritance of Orqu\u00eddea Divina",
@@ -3637,7 +4195,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Intern",
@@ -3650,7 +4210,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Invisible Life of Addie Larue",
@@ -3663,7 +4225,9 @@
     "shelf_location": "Wall Shelf 10.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Killer Across the Table",
@@ -3676,7 +4240,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Kind Worth Killing",
@@ -3689,7 +4255,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Kind Worth Saving",
@@ -3702,7 +4270,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Kindest Lie",
@@ -3715,7 +4285,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Kissing Quotient",
@@ -3728,7 +4300,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Knockout Queen",
@@ -3741,7 +4315,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Last Flight",
@@ -3754,7 +4330,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Last Thing He Told Me",
@@ -3767,7 +4345,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Last Time I Lied",
@@ -3780,7 +4360,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Last Wish of Bristol Keats",
@@ -3793,7 +4375,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Law of Innocense",
@@ -3806,7 +4390,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Leftover Woman",
@@ -3819,7 +4405,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Lies We Told",
@@ -3832,7 +4420,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Life Impossible",
@@ -3845,7 +4435,9 @@
     "shelf_location": "Wall Shelf 10.4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The LifeStyle",
@@ -3858,7 +4450,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Love Hypothesis",
@@ -3871,7 +4465,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Maidens",
@@ -3884,7 +4480,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Many Lives of Mama Love",
@@ -3897,7 +4495,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Measure",
@@ -3910,7 +4510,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "yellow",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Midnight Library",
@@ -3923,7 +4525,9 @@
     "shelf_location": "Wall Shelf 10.4",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Ministry of Time",
@@ -3936,7 +4540,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Municipalists",
@@ -3949,7 +4555,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Names",
@@ -3962,7 +4570,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Neighbor's Secret",
@@ -3975,7 +4585,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Night Swim",
@@ -3988,7 +4600,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Office Of Historical Corrections",
@@ -4001,7 +4615,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "yellow",
     "checked_out_to_name": "Brittany Spring",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Other Woman",
@@ -4014,7 +4630,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The People We Keep",
@@ -4027,7 +4645,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Power",
@@ -4040,7 +4660,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Power of Herbal Remedies",
@@ -4053,7 +4675,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Priest and the Shepherd",
@@ -4066,7 +4690,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Project Manager's Guide to Mastering Agile",
@@ -4079,7 +4705,9 @@
     "shelf_location": "Bookcase Shelf 5",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Proving Ground",
@@ -4092,7 +4720,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Rebel and the Rose",
@@ -4105,7 +4735,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Reckless Oath We Made",
@@ -4118,7 +4750,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Reunion",
@@ -4131,7 +4765,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Reversal",
@@ -4144,7 +4780,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "the rewind",
@@ -4157,7 +4795,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Selected Works of H.G. Wells",
@@ -4170,7 +4810,9 @@
     "shelf_location": "Desk Wall 1.1c",
     "jacket_color": "purple",
     "checked_out_to_name": "Caden Meek",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Seven Husbands of Evelyn Hugo",
@@ -4183,7 +4825,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Silent Patient",
@@ -4196,7 +4840,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Space Between Worlds",
@@ -4209,7 +4855,9 @@
     "shelf_location": "Wall Shelf 10.1",
     "jacket_color": "multi-color",
     "checked_out_to_name": "Cassidy Spring",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Sun is Also a Star",
@@ -4222,7 +4870,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Sun Was Electric Light",
@@ -4235,7 +4885,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Teller of Small Fortunes",
@@ -4248,7 +4900,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Ten Year Affair",
@@ -4261,7 +4915,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Time Machine",
@@ -4274,7 +4930,9 @@
     "shelf_location": "Desk Wall 1.1c",
     "jacket_color": "black",
     "checked_out_to_name": "Alexander Moon",
-    "is_checked_out": true
+    "is_checked_out": true,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Turn of the Key",
@@ -4287,7 +4945,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Ultimate Hitchhiker's Guide to the Galaxy",
@@ -4300,7 +4960,9 @@
     "shelf_location": "Desk Wall 1.1c",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Vanishing Half",
@@ -4313,7 +4975,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Verifiers",
@@ -4326,7 +4990,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Wedding People",
@@ -4339,7 +5005,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Whisper Man",
@@ -4352,7 +5020,9 @@
     "shelf_location": "Desk Wall 3.2",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The White Lioness",
@@ -4365,7 +5035,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Wife Between Us",
@@ -4378,7 +5050,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Wilder Women",
@@ -4391,7 +5065,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Winter Sister",
@@ -4404,7 +5080,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Wives",
@@ -4417,7 +5095,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Woman in Me",
@@ -4430,7 +5110,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "The Woman in the Window",
@@ -4443,7 +5125,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "These Violent Delights",
@@ -4456,7 +5140,9 @@
     "shelf_location": "Wall Shelf 1.2",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Things We Lost to the Water",
@@ -4469,7 +5155,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "This Inevitable Ruin (Release September 23, 2025)",
@@ -4482,7 +5170,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "This Spells Love",
@@ -4495,7 +5185,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "This Time Next Year",
@@ -4508,7 +5200,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "This Vicious Hunger",
@@ -4521,7 +5215,9 @@
     "shelf_location": "",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Thistlefoot",
@@ -4534,7 +5230,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Those Beyond the Wall",
@@ -4547,7 +5245,9 @@
     "shelf_location": "Wall Shelf 10.1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Threads of Power 2 - Unreleased",
@@ -4560,7 +5260,9 @@
     "shelf_location": "Wall Shelf 10.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Threads of Power 3 - Unreleased",
@@ -4573,7 +5275,9 @@
     "shelf_location": "Wall Shelf 10.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Three Women",
@@ -4586,7 +5290,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Throne of Glass",
@@ -4599,7 +5305,9 @@
     "shelf_location": "Wall Shelf 6.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "To Sir Phillip, With Love & When He Was Wicked",
@@ -4612,7 +5320,9 @@
     "shelf_location": "Wall Shelf 5.2",
     "jacket_color": "pink",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Tomb Sweeping",
@@ -4625,7 +5335,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Tomorrow and Tomorrow and Tomorrow",
@@ -4638,7 +5350,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Too Good To Be True",
@@ -4651,7 +5365,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "grey",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Topics of Conversation",
@@ -4664,7 +5380,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Tower of Dawn",
@@ -4677,7 +5395,9 @@
     "shelf_location": "Wall Shelf 6.1",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Troubled Blood",
@@ -4690,7 +5410,9 @@
     "shelf_location": "Bookcase Shelf 2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Twisted (Collector's Edition) February 10, 2026",
@@ -4703,7 +5425,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Untamed",
@@ -4716,7 +5440,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Untitled (Flesh and False Gods 3) 2026",
@@ -4729,7 +5455,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "UnWorld",
@@ -4742,7 +5470,9 @@
     "shelf_location": "Wall Shelf 2.2",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Upgrade",
@@ -4755,7 +5485,9 @@
     "shelf_location": "Wall Shelf 7.2",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Valentine",
@@ -4768,7 +5500,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "purple",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Vengeful",
@@ -4781,7 +5515,9 @@
     "shelf_location": "Wall Shelf 7.3",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Vicious",
@@ -4794,7 +5530,9 @@
     "shelf_location": "Wall Shelf 7.3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Vilest Things",
@@ -4807,7 +5545,9 @@
     "shelf_location": "Wall Shelf 1.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Violet Thistlewaite Is Not a Villain Anymore",
@@ -4820,7 +5560,9 @@
     "shelf_location": "",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "We Were Liars",
@@ -4833,7 +5575,9 @@
     "shelf_location": "Desk Wall 1.3",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Weyward",
@@ -4846,7 +5590,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "What Happens in Paradise",
@@ -4859,7 +5605,9 @@
     "shelf_location": "Wall Shelf 1.4",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "What Storm What Thunder",
@@ -4872,7 +5620,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "What You Wish For",
@@ -4885,7 +5635,9 @@
     "shelf_location": "Desk Wall 3.3",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "When Katie Met Cassidy",
@@ -4898,7 +5650,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "beige",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "When We Were Bright and Beautiful",
@@ -4911,7 +5665,9 @@
     "shelf_location": "Desk Wall 2.1b",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Where the Crawdads Sing",
@@ -4924,7 +5680,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "orange",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "While You Were Out",
@@ -4937,7 +5695,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "white",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Whoever You Are, Honey",
@@ -4950,7 +5710,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Wild Game",
@@ -4963,7 +5725,9 @@
     "shelf_location": "Desk Wall 2.1a",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Will",
@@ -4976,7 +5740,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Winter in Paradise",
@@ -4989,7 +5755,9 @@
     "shelf_location": "Wall Shelf 1.4",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Wool",
@@ -5002,7 +5770,9 @@
     "shelf_location": "Wall Shelf 8.1",
     "jacket_color": "black",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Wretched (Collector's Edition) February 10, 2026",
@@ -5015,7 +5785,9 @@
     "shelf_location": "",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Writers & Lovers",
@@ -5028,7 +5800,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Xenocide",
@@ -5041,7 +5815,9 @@
     "shelf_location": "Bookcase Shelf 1",
     "jacket_color": "blue",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Yerba Buena",
@@ -5054,7 +5830,9 @@
     "shelf_location": "Bookcase Shelf 3",
     "jacket_color": "green",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "You are Not Alone",
@@ -5067,7 +5845,9 @@
     "shelf_location": "Desk Wall 2.2",
     "jacket_color": "teal",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "You, Again",
@@ -5080,7 +5860,9 @@
     "shelf_location": "Bookcase Shelf 4",
     "jacket_color": "multi-color",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   },
   {
     "title": "Yours Truly",
@@ -5093,6 +5875,8 @@
     "shelf_location": "Wall Shelf 1.3",
     "jacket_color": "red",
     "checked_out_to_name": "",
-    "is_checked_out": false
+    "is_checked_out": false,
+    "isbn": "",
+    "cover_url": ""
   }
 ]

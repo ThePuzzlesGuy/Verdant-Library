@@ -59,3 +59,43 @@ document.getElementById('export').onclick=()=>{
 };
 
 load();
+
+
+/* ===== Bulk cover fetch (Open Library) ===== */
+async function fetchCoverFor(b){
+  if(b.cover_url && b.cover_url.trim()) return false;
+  // Try ISBN first
+  if(b.isbn){
+    const url = `https://covers.openlibrary.org/b/isbn/${encodeURIComponent(b.isbn)}-L.jpg?default=false`;
+    if(await probe(url)){ b.cover_url = url; return true; }
+  }
+  // Search by title/author
+  const q = new URLSearchParams({ title: b.title||'', author: b.author||'' }).toString();
+  const r = await fetch(`https://openlibrary.org/search.json?${q}`);
+  if(r.ok){
+    const data = await r.json();
+    const doc = (data.docs||[]).find(d => d.cover_i);
+    if(doc && doc.cover_i){
+      b.cover_url = `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`;
+      return true;
+    }
+  }
+  return false;
+}
+async function probe(url){
+  try{ const r = await fetch(url, {method:'HEAD'}); return r.ok; }catch(e){ return false; }
+}
+
+document.getElementById('fetchCovers').onclick = async ()=>{
+  let changed = 0;
+  for(const b of books){
+    const ok = await fetchCoverFor(b);
+    if(ok) changed++;
+  }
+  if(changed){
+    await save();
+    alert(`Added covers for ${changed} book(s).`);
+  } else {
+    alert('No new covers found.');
+  }
+};
