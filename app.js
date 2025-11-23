@@ -13,10 +13,37 @@ const els = {
 const normalize = s => (s||'').toString().toLowerCase();
 const unique = (arr, key) => [...new Set(arr.map(x => x[key]).filter(Boolean))];
 
-async function loadBooks(){
-  const res = await fetch('/.netlify/functions/loadData?_=' + Date.now());
-  BOOKS = await res.json();
+
+async function safeLoad(){
+  try{
+    const r = await fetch('/.netlify/functions/loadData?_=' + Date.now());
+    if(!r.ok) throw new Error('loadData ' + r.status);
+    return await r.json();
+  }catch(e){
+    // Fallback to static seed so the page isn't empty
+    try{
+      const s = await fetch('data/library.json?_=' + Date.now());
+      if(!s.ok) throw new Error('seed ' + s.status);
+      const j = await s.json();
+      // Attempt to seed blobs asynchronously
+      try{
+        await fetch('/.netlify/functions/saveData', {
+          method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(j)
+        });
+      }catch(_e){ /* ignore */ }
+      return j;
+    }catch(e2){
+      const main = document.querySelector('main') || document.body;
+      const div = document.createElement('div');
+      div.style = 'margin:16px;padding:12px;border:1px solid #e6e7e9;background:#fff;color:#b3261e;border-radius:6px;';
+      div.textContent = 'Error loading books. If you just deployed, Netlify may still be installing dependencies. Try again in a minute.';
+      main.prepend(div);
+      return [];
+    }
+  }
 }
+
+async function loadBooks(){ BOOKS = await safeLoad(); }
 
 function renderGenres(){
   const genres = unique(BOOKS, 'main_genre').sort((a,b)=>a.localeCompare(b));
