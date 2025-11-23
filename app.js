@@ -14,7 +14,7 @@ const normalize = s => (s||'').toString().toLowerCase();
 const unique = (arr, key) => [...new Set(arr.map(x => x[key]).filter(Boolean))];
 
 async function loadBooks(){
-  const res = await fetch('data/library.json?_=' + Date.now());
+  const res = await fetch('/.netlify/functions/loadData?_=' + Date.now());
   BOOKS = await res.json();
 }
 

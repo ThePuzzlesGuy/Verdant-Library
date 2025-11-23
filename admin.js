@@ -1,8 +1,14 @@
 
+const progressOverlay = document.getElementById('progressOverlay');
+const progressText = document.getElementById('progressText');
+function showProgress(msg){ progressText.textContent = msg||'Working…'; progressOverlay.style.display='flex'; }
+function hideProgress(){ progressOverlay.style.display='none'; }
+
+
 let books=[];
 
 async function load(){
-  const res = await fetch('data/library.json?_=' + Date.now());
+  const res = await fetch('/.netlify/functions/loadData?_=' + Date.now());
   books = await res.json();
   render();
 }
@@ -88,6 +94,7 @@ async function probe(url){
 }
 
 document.getElementById('fetchCovers').onclick = async ()=>{
+  showProgress('Fetching covers…');
   let changed = 0;
   for(const b of books){
     const ok = await fetchCoverFor(b);
@@ -124,6 +131,8 @@ async function bulkFillCoversAdmin({concurrency=8, saveEvery=20} = {}){
 }
 
 document.getElementById('fetchCovers').onclick = async ()=>{
+  showProgress('Fetching covers…');
   const changed = await bulkFillCoversAdmin({concurrency:8, saveEvery:25});
+  hideProgress();
   alert(changed ? `Added covers for ${changed} book(s).` : 'No new covers found.');
 };
