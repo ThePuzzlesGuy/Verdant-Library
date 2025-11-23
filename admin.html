@@ -1,73 +1,68 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Verdant Hollow · Admin</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .adminbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-bottom:1px solid var(--bn-line);background:#fff;position:sticky;top:0;z-index:5}
-    .adminbar .title{font-weight:700;margin-right:auto}
-    .button{border:1px solid var(--bn-line);background:#fff;border-radius:6px;padding:8px 10px;cursor:pointer}
-    .button.primary{background:var(--bn-green);color:#fff;border-color:var(--bn-green)}
-    .button.danger{background:#fff1f0;border-color:#ffd6d3;color:#b3261e}
-    .input{padding:8px 10px;border:1px solid var(--bn-line);border-radius:6px;min-width:200px}
-    .table{width:100%;border-collapse:collapse}
-    .table th,.table td{padding:8px;border-bottom:1px solid var(--bn-line);text-align:left;vertical-align:top}
-    .table th{background:#fafafa;position:sticky;top:54px;z-index:4}
-    .pill{font-size:12px;border:1px solid var(--bn-line);border-radius:999px;padding:2px 8px}
-    .green{color:var(--bn-green);border-color:var(--bn-green)}
-    .red{color:#b3261e;border-color:#ffb3ac}
-    .muted{color:#6b6f72}
-    .nowrap{white-space:nowrap}
-  </style>
-  <script defer src="admin.js"></script>
+  <title>Library Admin</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="admin.css" />
 </head>
-<body class="theme-bn">
-  <header class="adminbar">
-    <div class="title">Admin · Static data (data/library.json)</div>
-    <input id="search" class="input" placeholder="Search title, author, series…" />
-    <select id="genre" class="input"></select>
-    <select id="status" class="input">
-      <option value="">All status</option>
-      <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
-    </select>
-    <select id="availability" class="input">
-      <option value="">All</option>
-      <option value="in">Checked In</option>
-      <option value="out">Checked Out</option>
-    </select>
-    <select id="sort" class="input">
-      <option value="title-asc">Title A→Z</option>
-      <option value="title-desc">Title Z→A</option>
-      <option value="author-asc">Author A→Z</option>
-      <option value="author-desc">Author Z→A</option>
-      <option value="series-asc">Series A→Z</option>
-      <option value="rating-desc">Rating High→Low</option>
-    </select>
-    <button id="exportJSON" class="button">Export JSON</button>
-    <button id="exportCSV" class="button">Export CSV</button>
-    <a class="button" href="index.html">Public</a>
+<body>
+  <header class="topbar">
+    <h1>Library Admin</h1>
+    <div class="actions">
+      <button id="exportJson" class="primary">Export Updated JSON</button>
+      <label class="file">
+        <input type="file" id="importJson" accept=".json" />
+        Import JSON
+      </label>
+    </div>
   </header>
 
-  <main style="padding:12px;">
-    <div id="status" class="muted" style="margin:6px 0 10px 0;">Loading from <code>data/library.json</code>…</div>
-    <table class="table" id="table">
-      <thead>
-        <tr>
-          <th>Title</th>
-          <th>Author</th>
-          <th>Series</th>
-          <th>Genre</th>
-          <th>Status</th>
-          <th>Availability</th>
-          <th>Rating</th>
-          <th>Shelf</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </main>
+  <section class="controls">
+    <input id="search" type="search" placeholder="Search title, author, series, genre…" />
+    <div class="counts">
+      <span id="countShown">0</span> shown
+      <span class="dim">/ <span id="countTotal">0</span> total</span>
+    </div>
+    <div class="viewopts">
+      <label><input type="checkbox" id="onlyMissingCovers" /> Only items with missing/failed covers</label>
+    </div>
+  </section>
+
+  <main id="grid" class="grid" aria-live="polite"></main>
+
+  <template id="cardTpl">
+    <article class="card">
+      <div class="coverWrap">
+        <img class="cover" alt="Cover" />
+        <div class="coverBadge hidden" title="Tried fallbacks">F</div>
+      </div>
+      <div class="meta">
+        <label>Title <input class="fld title"></label>
+        <label>Author <input class="fld author"></label>
+        <label>Series <input class="fld series"></label>
+        <label>Main Genre <input class="fld main_genre"></label>
+        <label>Sub-Genre <input class="fld sub_genre"></label>
+        <label>Read Status <input class="fld read_status"></label>
+        <label>Rating <input class="fld rating" placeholder="⭐️⭐️⭐️" /></label>
+        <label>ISBN <input class="fld isbn" placeholder="optional for Open Library fallback" /></label>
+        <label>Cover URL / Filename
+          <input class="fld cover_raw" placeholder="e.g. covers/my-book.jpg or https://…" />
+        </label>
+        <details class="adv">
+          <summary>Advanced (IDs/Notes)</summary>
+          <label>ID <input class="fld id"></label>
+          <label>Notes <textarea class="fld notes" rows="2"></textarea></label>
+        </details>
+      </div>
+      <div class="rowActions">
+        <button class="btn save">Save</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn testCover">Test Cover</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="admin.js" type="module"></script>
 </body>
 </html>
