@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Verdant Hollow Library</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header><h1>The Verdant Hollow Library</h1><a href="admin.html" class="button">Admin</a></header>
+<section class="filters">
+  <input id="search" placeholder="Search title, author, or series...">
+  <select id="genre"></select>
+  <select id="status">
+    <option value="">All Read Status</option>
+    <option>Unread</option><option>Reading</option><option>Finished</option><option>DNF</option>
+  </select>
+</section>
+<main id="grid" class="grid"></main>
+</body>
+</html>
